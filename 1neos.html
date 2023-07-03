@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Neos</title>
@@ -10,355 +11,366 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header class="header-image1">
-    <nav class="navbar nav-main">
-        <div class="topnav-centered">
-            <a href="index.html" class="navbar-brand">ningyuan xu</a>
-            <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
-        </div>
+    <!-- Navbar -->
+    <header class="header-image1">
+        <nav class="navbar nav-main">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
 
-        <ul>
-            <li><a href="index.html" class="nav-active">Work</a></li>
-            <li><a href="aboutme.html" >About</a></li>
-            <li><a href="playground.html" >Play</a></li>
-        </ul>
-        <button class="navbar-toggler">
+            <ul>
+                <li><a href="index.html" class="nav-active">Work</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="playground.html">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
             <span></span>
         </button>
-    </nav>
+        </nav>
 
 
 
-    <!-- Navbar toggler script-->
-    <script>
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        const navbarMenu = document.querySelector(".navbar ul");
-        const navbarLinks = document.querySelectorAll(".navbar a");
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
 
-        navbarToggler.addEventListener("click", navbarTogglerClick);
+            navbarToggler.addEventListener("click", navbarTogglerClick);
 
-        function navbarTogglerClick() {
-            navbarToggler.classList.toggle("open-navbar-toggler");
-            navbarMenu.classList.toggle("open");
-        }
-
-        // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
-
-        function navbarLinkClick() {
-            if(navbarMenu.classList.contains("open")) {
-                navbarToggler.click();
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
             }
-        }
-    </script>
-</header>
-<!-- Navbar END -->
+
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </header>
+    <!-- Navbar END -->
 
 
-<!-- MAIN (Center website) -->
-<br>
-<div class="project-main">
-<!-- Page content -->
-<br>
-<br>
-    <!-- row1 text -->
-    <div class="rows">
-        <div class="project-title">
-            <h1>
-                NEOs - <br>Tangible Apps Kit
-            </h1>
+    <!-- MAIN (Center website) -->
+    <br>
+    <div class="project-main">
+        <!-- Page content -->
+        <br>
+        <br>
+        <!-- row1 text -->
+        <div class="rows">
+            <div class="project-title">
+                <h1>
+                    NEOs - <br>Tangible Apps Kit
+                </h1>
+            </div>
+            <br>
+            <div class="project-text">
+                <p class="grey-text">
+                    Interaction Design | Inclusive design
+                    <br> Supervisor: Prof. Carola Zwick, Prof. Dr. Jörg Petruschat
+                    <br> Working Prototype: NFC, Arduino, Processing, Automator
+
+                </p>
+                <br>
+                <p>
+                    NEOs is a tangible apps kit which innovates neo-analog experience of getting access to the digital world instead of on the screens. It consists of five main components for contacts, calls, camera, audio and payment. They create logical links to digital
+                    functions in an intuitive, physically comprehensible way.
+                    <br><br> Bored and tired of typing and wiping on screens? What is the difference between access to payment and access to the camera? Neos brings orientation back into everyday life.
+
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/320595510?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+
+            <h2 style="display:block; margin:auto; width:80%; color:#444444; font-size: 22px;">“The body is the ultimate instrument of all our external knowledge, whether intellectual or practical… experience [is] always in terms of the world to which we are attending from our body. “
+                <br><br><span style="text-align:right">— Michael Polanyi</span></h2>
+            <!--<p class="project-text">Pre-programmed background patterns will be randamly applied to exercises. An internal counter is embedded in the pattern to prevent overstraining your hand. The pattern is changing in accordance with the movement to help you optimizeing the exercises.</p>-->
+            <!---->
         </div>
         <br>
-        <div class="project-text">
-            <p class="grey-text">
-                Interaction Design | Inclusive design
-                <br>
-                Supervisor: Prof. Carola Zwick, Prof. Dr. Jörg Petruschat
-                <br>
-                Working Prototype: NFC, Arduino, Processing, Automator
-               
-            </p>
-            <br>
-            <p>
-                NEOs is a tangible apps kit which innovates neo-analog experience of getting access to the digital world instead of on the screens. It consists of five main components for contacts, calls, camera, audio and payment. They create logical links to digital functions in an intuitive, physically comprehensible way.  
-<br><br>
-                Bored and tired of typing and wiping on screens? What is the difference between access to payment and access to the camera? Neos brings orientation back into everyday life. 
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos10.jpg" alt="Neos - hand1" style="display:block; margin:auto;width:80%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <h2><span class="orange-subtitle"></span>How Bodies Matter</h2>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <p style="display:block; margin:auto; width:80%; ">
+                How Bodies Matter: the aspects of human embodied engagement in the world with the goal of inspiring new interaction design approaches and evaluations that better integrate the physical and computational worlds. Our physical bodies play a central role
+                in shaping human experience in the world, understanding of the world, and interactions in the world.
 
             </p>
         </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos11.jpg" alt="Neos - hand2" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <h2><span class="orange-subtitle"></span>Concept Development</h2>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <p style="display:block; margin:auto; width:80%; ">
+                In order to develop a new service system for smart home, and distract the users attention from smart phones back to the physical environment. It is important to know what they often use their smart phones for, and how would these smart phone functions
+                be disembled into different objects, and serve in different rooms for daily lives.
+
+            </p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos12.jpg" alt="Neos - hand2" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos13.jpg" alt="Neos - hand2" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos14.jpg" alt="Neos - hand2" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <h2><span class="orange-subtitle"></span>Potential components</h2>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="1neos15.jpg" alt="Neos - hand1" style="display:block; margin:auto;width:60%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+
+        <div>
+            <h2><span class="orange-subtitle"></span>Contacts and Call</h2>
+
+
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos-draw3.jpg" alt="Neos - call story board" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-small image-left">
+            <img src="1neos0.jpg" alt="Neos - call1" style="width:100%">
+        </div>
+        <div class="image-small image-right">
+            <img src="1neos02.jpg" alt="Neos - call2" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos03.jpg" alt="Neos - call3" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <h2><span class="orange-subtitle"></span>Camera + Other Apps</h2>
+        </div>
+        <br>
+
+
+        <br>
+        <div class="image-big">
+            <img src="1neos-draw2.jpg" alt="Neos - camera story board" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-small image-left">
+            <img src="1neos04.jpg" alt="Neos - camera1" style="width:100%">
+        </div>
+        <div class="image-small image-right">
+            <img src="1neos05.jpg" alt="Neos - camera2" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos06.jpg" alt="Neos - camera3" style="width:100%">
+        </div>
+
+
+        <br>
+        <br>
+        <div>
+            <h2><span class="orange-subtitle"></span>Play</h2>
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos-draw1.jpg" alt="Neos - play story board" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-small image-left">
+            <img src="1neos07.jpg" alt="Neos - play1" style="width:100%">
+        </div>
+        <div class="image-small image-right">
+            <img src="1neos08.jpg" alt="Neos - play2" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos09.jpg" alt="Neos - play3" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <h2><span class="orange-subtitle"></span>Payment</h2>
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos-draw4.jpg" alt="Neos - play story board" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="1neos16.jpg" alt="Neos - play3" style="width:100%">
+        </div>
+
+
+
+        <br>
+        <br>
+        <div class="image-big">
+            <img src="1neos-1.jpg" alt="Neos - play story board" style="width:100%">
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+        <div>
+            <h2><span class="orange-subtitle"></span>Technical Part</h2>
+        </div>
+        <br>
+
+        <br>
+        <br>
+        <div class="image-big">
+            <img src="1neos18.png" alt="Neos - play story board" style="display:block; margin:auto;width:70%">
+        </div>
+        <br>
+        <div class="image-big">
+            <img src="1neos19.png" alt="Neos - play story board" style="display:block; margin:auto;width:63%">
+        </div>
+
+        <br>
+        <br>
+        <div class="image-big">
+            <img src="1neos17.JPG" alt="Neos - play story board" style="width:100%">
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="text-links">
+            <a href="index.html">All</a>
+            <a href="1neos.html" class="active-links">NEOs - Tangible Apps Kit</a>
+            <a href="2speaker.html">Qiro - Puppet Speaker</a>
+            <a href="4shift.html">Shift - Virtual Hand Therapy</a>
+            <a href="9mini.html">MINI - Service Now App</a>
+            <a href="3jacket.html">Sound Jacket - Music from Body</a>
+            <a href="6mirror.html">MOom - Adaptable Mirror</a>
+            <a href="7yinyun.html">Yin Yun - Plant Dyestuff</a>
+            <a href="5material.html">Bio Leather - from Food Waste</a>
+            <a href="playground.html">Play</a>
+        </div>
+
+        <!-- MAIN END -->
     </div>
-
-    <br>
-    <br>
-    <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
-        <iframe src="https://player.vimeo.com/video/320595510?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
-    </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div >
-       
-        <h2 style="display:block; margin:auto; width:80%; color:#444444; font-size: 22px;">“The body is the ultimate instrument of all our external knowledge, whether intellectual or practical… experience [is] always in terms of the world to which we are attending from our body. “
-            <br><br><span style="text-align:right">— Michael Polanyi</span></h2>
-        <!--<p class="project-text">Pre-programmed background patterns will be randamly applied to exercises. An internal counter is embedded in the pattern to prevent overstraining your hand. The pattern is changing in accordance with the movement to help you optimizeing the exercises.</p>-->
-    <!---->
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-   
-    <div class="image-big">
-        <img src="1neos10.jpg" alt="Neos - hand1"  style="display:block; margin:auto;width:80%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div >
-        <h2><span class="orange-subtitle"></span>How Bodies Matter</h2>
-           
-    </div>
-
-    <br>
-    <br>
-    <br>
-    
-    <div >
-        <p style="display:block; margin:auto; width:80%; ">
-            How Bodies Matter: the aspects of human embodied engagement in the world with the goal of inspiring new interaction design approaches and evaluations that better integrate the physical and computational worlds. Our physical bodies play a central role in shaping human experience in the world, understanding of the world, and interactions in the world.
-
-           </p>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-   
-    <div class="image-big">
-        <img src="1neos11.jpg" alt="Neos - hand2"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-   
-    <div >
-        <h2><span class="orange-subtitle"></span>Concept Development</h2>
-           
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div >
-        <p style="display:block; margin:auto; width:80%; ">
-            In order to develop a new service system for smart home, and distract the users attention from smart phones back to the physical environment. It is important to know what they often use their smart phones for, and how would these smart phone functions be disembled into different objects, and serve in different rooms for daily lives.
-
-           </p>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-   
-    <div class="image-big">
-        <img src="1neos12.jpg" alt="Neos - hand2"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div class="image-big">
-        <img src="1neos13.jpg" alt="Neos - hand2"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div class="image-big">
-        <img src="1neos14.jpg" alt="Neos - hand2"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <div >
-        <h2><span class="orange-subtitle"></span>Potential components</h2>
-           
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div class="image-big">
-        <img src="1neos15.jpg" alt="Neos - hand1"  style="display:block; margin:auto;width:60%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-   
-
-    <div >
-        <h2><span class="orange-subtitle"></span>Contacts and Call</h2>
-
-        
-    </div>
-    <br>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos-draw3.jpg" alt="Neos - call story board"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-small image-left">
-        <img src="1neos0.jpg" alt="Neos - call1"  style="width:100%">
-    </div>
-    <div class="image-small image-right">
-        <img src="1neos02.jpg" alt="Neos - call2"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos03.jpg" alt="Neos - call3"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <div >
-        <h2><span class="orange-subtitle"></span>Camera + Other Apps</h2>
-    </div>
-    <br>
-
-
-    <br>
-    <div class="image-big">
-        <img src="1neos-draw2.jpg" alt="Neos - camera story board"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-small image-left">
-        <img src="1neos04.jpg" alt="Neos - camera1"  style="width:100%">
-    </div>
-    <div class="image-small image-right">
-        <img src="1neos05.jpg" alt="Neos - camera2"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos06.jpg" alt="Neos - camera3"  style="width:100%">
-    </div>
-
-
-    <br>
-    <br>
-    <div >
-        <h2><span class="orange-subtitle"></span>Play</h2>
-    </div>
-    <br>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos-draw1.jpg" alt="Neos - play story board"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-small image-left">
-        <img src="1neos07.jpg" alt="Neos - play1"  style="width:100%">
-    </div>
-    <div class="image-small image-right">
-        <img src="1neos08.jpg" alt="Neos - play2"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos09.jpg" alt="Neos - play3"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <div >
-        <h2><span class="orange-subtitle"></span>Payment</h2>
-    </div>
-    <br>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos-draw4.jpg" alt="Neos - play story board"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="1neos16.jpg" alt="Neos - play3"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <div >
-        <h2><span class="orange-subtitle"></span>Technical Part</h2>
-    </div>
-    <br>
-
-    <br>
-    <br>
-    <div class="image-big">
-        <img src="1neos18.png" alt="Neos - play story board"  style="display:block; margin:auto;width:70%">
-    </div>
-    <br>
-    <div class="image-big">
-        <img src="1neos19.png" alt="Neos - play story board"  style="display:block; margin:auto;width:63%">
-    </div>
-
-    <br>
-    <br>
-    <div class="image-big">
-        <img src="1neos17.jpg" alt="Neos - play story board"  style="width:100%">
-    </div>
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="text-links">
-        <a href="index.html" >All</a>
-        <a href="1neos.html" class="active-links">NEOs - Tangible Apps Kit</a>
-        <a href="2speaker.html" >Qiro - Puppet Speaker</a>
-        <a href="4shift.html" >Shift - Virtual Hand Therapy</a>
-        <a href="9mini.html" >MINI - Service Now App</a>
-        <a href="3jacket.html" >Sound Jacket - Music from Body</a>
-        <a href="6mirror.html" >MOom - Adaptable Mirror</a>
-        <a href="7yinyun.html" >Yin Yun - Plant Dyestuff</a>
-        <a href="5material.html" >Bio Leather - from Food Waste</a>
-        <a href="playground.html" >Play</a>
-    </div>
-
-<!-- MAIN END -->
-</div>
 
     <!-- Page content END -->
 
@@ -374,7 +386,9 @@
 
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -395,7 +409,7 @@
     <footer>
         <br>
         <div class="containerCenter">
-            <p id="bottom">© 2019 NINGYUAN XU</p>
+            <p id="bottom">© 2023 NINGYUAN XU</p>
         </div>
     </footer>
     <!-- footer END -->
@@ -404,4 +418,5 @@
 
 
 </body>
+
 </html>

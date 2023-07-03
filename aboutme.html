@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Ningyuan</title>
@@ -10,109 +11,143 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<!-- MAIN (Center website) -->
+    <!-- MAIN (Center website) -->
 
 
-<!-- Navbar -->
-<div class="nav-main">
-    <nav class="navbar">
-        <div class="topnav-centered">
-            <a href="index.html" class="navbar-brand">ningyuan xu</a>
-            <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
-        </div>
+    <!-- Navbar -->
+    <div class="nav-main">
+        <nav class="navbar">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
 
-        <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a href="playground.html">Play</a></li>
-        </ul>
-        <button class="navbar-toggler">
+            <ul>
+                <li><a href="index.html">Work</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="playground.html">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
             <span></span>
         </button>
-    </nav>
+        </nav>
 
-    <!-- Navbar toggler script-->
-    <script>
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        const navbarMenu = document.querySelector(".navbar ul");
-        const navbarLinks = document.querySelectorAll(".navbar a");
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
 
-        navbarToggler.addEventListener("click", navbarTogglerClick);
+            navbarToggler.addEventListener("click", navbarTogglerClick);
 
-        function navbarTogglerClick() {
-            navbarToggler.classList.toggle("open-navbar-toggler");
-            navbarMenu.classList.toggle("open");
-        }
-
-        // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
-
-        function navbarLinkClick() {
-            if(navbarMenu.classList.contains("open")) {
-                navbarToggler.click();
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
             }
-        }
-    </script>
-</div>
 
-<!-- Navbar END -->
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
 
-<!-- MAIN (Center website) -->
-<br>
-<div class="main">
-    <!-- Page content -->
-    <br>
-    <br>
-
-
-
-
-
-
-    <!-- Project1 -->
-    <div class="about-text" style="" >
-        <br>
-
-        <p >
-            I am a <b>product and interaction designer</b>,  <br>with curiosity and passion for new things and <b>technologies</b>, <br>interested in tangible human-machine interactions,
-
-            <br><b>physical computing</b> and hands on experiments.
-        </p>
-        <br>
-        <p class="grey-text">
-            Previously I worked as usability engineer at Designaffairs in Munich, <br>for household appliances, Infrastructure system and car infotainment designs.<br> During another internship at Bose in Framingham, I learned to make and evaluate working prototypes for advanced development designs. <br>As a designer I enjoy delivering design concepts in various aspects with agile approaches.
-            <br>
-            <br>
-            For Resume and more information, contact me: <br>
-        </p>
-        <p>
-            ningyuanxu@outlook.com
-
-        </p>
-
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
     </div>
 
+    <!-- Navbar END -->
 
-    <!--<br>-->
-    <!--<div class="image-big">-->
-    <!--<img src="about-2.jpg" alt="ningyuan - portrait"  style="width:100%; padding: 24px;">-->
-    <!--</div>-->
-
-
+    <!-- MAIN (Center website) -->
     <br>
-    <br>
-    <br>
+    <div class="main">
+        <!-- Page content -->
+        <br>
+        <br>
 
 
 
 
 
 
-    <!-- Page content END -->
+        <!-- Project1 -->
+        <div class="about-text">
+            <br>
 
-    <!-- scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <p>
+                I am a <b>product and interaction designer</b>, <br>with curiosity and passion for new things and <b>technologies</b>, <br>interested in tangible human-machine interactions,
+
+                <br><b>physical computing</b> and hands on experiments.
+            </p>
+            <br>
+            <p class="grey-text">
+                Previously I worked as usability engineer at Designaffairs in Munich, <br>for household appliances, Infrastructure system and car infotainment designs.<br> During another internship at Bose in Framingham, I learned to make and evaluate
+                working prototypes for advanced development designs. <br>As a designer I enjoy delivering design concepts in various aspects with agile approaches.
+                <br>
+                <br> For Resume and more information, contact me: <br>
+            </p>
+            <p>
+                ningyuanxu@outlook.com
+
+            </p>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+
+        <!--<br>-->
+        <!--<div class="image-big">-->
+        <!--<img src="about-2.jpg" alt="ningyuan - portrait"  style="width:100%; padding: 24px;">-->
+        <!--</div>-->
+
+
+        <br>
+        <br>
+        <br>
+
+        <div class="project-title">
+            <h1>
+                What's more
+            </h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="more1.GIF" alt="Qiro - sketch" style="width:60%">
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="more2.GIF" alt="Qiro - sketch" style="width:60%">
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="more3.GIF" alt="Qiro - sketch" style="width:60%">
+        </div>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="more4.GIF" alt="Qiro - sketch" style="width:60%">
+        </div>
+        <br>
+
+
+        <!-- Page content END -->
+
+        <!-- scroll to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
         <svg width="30px" height="20px" viewBox="0 0 32 18" xml:space="preserve">
             <!-- stroke-dasharray="5,5" -->
         <polyline fill="none" stroke="#105a5f"  stroke-width="3"  points="
@@ -120,36 +155,39 @@
         </svg>
     </button>
 
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-            } else {
-                document.getElementById("myBtn").style.display = "none";
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
             }
-        }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
 
-    <!-- footer -->
-    <footer>
-        <div class="containerCenter">
-            <p id="bottom">© 2019 NINGYUAN XU</p>
-        </div>
-    </footer>
-    <!-- footer END -->
+        <!-- footer -->
+        <footer>
+            <div class="containerCenter">
+                <p id="bottom">© 2023 NINGYUAN XU</p>
+            </div>
+        </footer>
+        <!-- footer END -->
 
-    <!-- MAIN END -->
-</div>
+        <!-- MAIN END -->
+    </div>
 
 
 </body>
+
 </html>

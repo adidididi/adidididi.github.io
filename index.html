@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Ningyuan Portfolio</title>
@@ -11,211 +12,212 @@
     <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
 
 </head>
+
 <body>
 
-<!-- MAIN (Center website) -->
+    <!-- MAIN (Center website) -->
 
 
-<!-- Navbar -->
-<div class="nav-main">
+    <!-- Navbar -->
+    <div class="nav-main">
 
-    <nav class="navbar">
-        <div class="topnav-centered">
-        <a href="index.html" class="navbar-brand">Ningyuan XU</a>
-            <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
-        </div>
+        <nav class="navbar">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand">Ningyuan XU</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
 
-        <ul>
-            <li><a href="index.html" class="nav-active">Work</a></li>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a href="playground.html">Play</a></li>
-        </ul>
-        <button class="navbar-toggler">
+            <ul>
+                <li><a href="index.html" class="nav-active">Work</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="playground.html">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
             <span>     </span>
         </button>
-    </nav>
+        </nav>
 
-    <!-- Navbar toggler script-->
-    <script>
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        const navbarMenu = document.querySelector(".navbar ul");
-        const navbarLinks = document.querySelectorAll(".navbar a");
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
 
-        navbarToggler.addEventListener("click", navbarTogglerClick);
+            navbarToggler.addEventListener("click", navbarTogglerClick);
 
-        function navbarTogglerClick() {
-            navbarToggler.classList.toggle("open-navbar-toggler");
-            navbarMenu.classList.toggle("open");
-        }
-
-        // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
-
-        function navbarLinkClick() {
-            if(navbarMenu.classList.contains("open")) {
-                navbarToggler.click();
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
             }
-        }
-    </script>
-</div>
 
-<!-- Navbar END -->
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
 
-<div class="main">
-<!-- Page content -->
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </div>
+
+    <!-- Navbar END -->
+
+    <div class="main">
+        <!-- Page content -->
 
 
-    <!--<br>-->
+        <!--<br>-->
 
-    <div class="rows ">
+        <div class="rows ">
 
-        <!-- Project1 -->
-        <div class="columns">
-            <div class="contents">
-                <a href="1neos.html" >
-                    <div class="hovereffect">
-                        <img src="1neos-3.jpg" alt="Neos - Tangible Apps Kit"  style="width:100%">
-                        <div class="overlay ">
-                            <h2 >NEOs - Tangible Apps Kit<br>
-                                <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Inclusive Design</span>
-                            
-                            </h2>
-                            
+            <!-- Project1 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="1neos.html">
+                        <div class="hovereffect">
+                            <img src="1neos-3.jpg" alt="Neos - Tangible Apps Kit" style="width:100%">
+                            <div class="overlay ">
+                                <h2>NEOs - Tangible Apps Kit<br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Inclusive Design</span>
+
+                                </h2>
+
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <!-- Project2 -->
-        <div class="columns">
-            <div class="contents">
-                <a href="2speaker.html" >
-                    <div class="hovereffect">
-                        <img src="2qiro-2.jpg" alt="Qiro"  style="width:100%">
-                        <div class="overlay ">
-                            <h2>Qiro - Puppet Speaker<br>
-                                <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Body Language of Machine</span>
-                            
-                            </h2>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <!-- Project4 -->
-        <div class="columns">
-            <div class="contents">
-                <a href="4shift.html" >
-                    <div class="hovereffect">
-                        <img src="4shift.jpg" alt="Shift"  style="width:100%">
-                        <div class="overlay ">
-                            <h2>Shift - Virtual Hand Therapy
-                                <br>
-                                <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Mixed Reality</span>
-                            
-                            </h2>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-         <!-- Project9 -->
- <div class="columns">
-    <div class="contents">
-        <a href="9mini.html" >
-            <div class="hovereffect">
-                <img src="9mini-head1.jpg" alt="MINI"  style="width:100%">
-                <div class="overlay">
-                    <h2>MINI - Service Now App
-                        <br>
-                        <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Mobile UX&UI Conception</span>
-
-                    </h2>
+                    </a>
                 </div>
             </div>
-        </a>
-    </div>
-</div>
 
-   <!-- Project3 -->
-   <div class="columns">
-    <div class="contents">
-        <a href="3jacket.html" >
-            <div class="hovereffect">
-                <img src="3soundjacket.jpg" alt="Sound Jacket"  style="width:100%">
-                <div class="overlay ">
-                    <h2>Sound Jacket - Music from Body
-                        <br>
-                        <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Wearable computing | Music</span>
-                          
-                    </h2>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
+            <!-- Project2 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="2speaker.html">
+                        <div class="hovereffect">
+                            <img src="2qiro-2.jpg" alt="Qiro" style="width:100%">
+                            <div class="overlay ">
+                                <h2>Qiro - Puppet Speaker<br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Body Language of Machine</span>
 
-
-        <!-- Project6 -->
-        <div class="columns">
-            <div class="contents">
-                <a href="6mirror.html" >
-                    <div class="hovereffect">
-                        <img src="8mirror.jpg" alt="Mirror"  style="width:100%">
-                        <div class="overlay ">
-                            <h2>MOom - Adaptable Mirror
-                                <br>
-                        <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Interior</span>
-                          
-                            </h2>
+                                </h2>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-   <!-- Project7 -->
-   <div class="columns">
-    <div class="contents">
-        <a href="7yinyun.html" >
-            <div class="hovereffect">
-                <img src="6yinyun-6.jpg" alt="Yin Yun"  style="width:100%">
-                <div class="overlay ">
-                    <h2>Yin Yun - Plant Dyestuff
-                        <br>
-                        <span style="color:#777777; font-size:18px; font-weight:300;"> Experiment | Sustainability</span>
-                          
-                    </h2>
+                    </a>
                 </div>
             </div>
-        </a>
-    </div>
-</div>
 
- <!-- Project5 -->
- <div class="columns">
-    <div class="contents">
-        <a href="5material.html" >
-            <div class="hovereffect">
-                <img src="5material.jpg" alt="Bio Leather"  style="width:100%">
-                <div class="overlay ">
-                    <h2>Bio Leather - from Food Waste
-                        <br>
-                        <span style="color:#777777; font-size:18px; font-weight:300;"> Experiment | Sustainability</span>
-                          
-                    </h2>
+            <!-- Project4 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="4shift.html">
+                        <div class="hovereffect">
+                            <img src="4shift.jpg" alt="Shift" style="width:100%">
+                            <div class="overlay ">
+                                <h2>Shift - Virtual Hand Therapy
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Mixed Reality</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </a>
-    </div>
-</div>
 
-     
+            <!-- Project9 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="9mini.html">
+                        <div class="hovereffect">
+                            <img src="9mini-head1.jpg" alt="MINI" style="width:100%">
+                            <div class="overlay">
+                                <h2>MINI - Service Now App
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Mobile UX&UI Conception</span>
 
-        <!-- Project8 -->
-        <!-- <div class="columns">
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project3 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="3jacket.html">
+                        <div class="hovereffect">
+                            <img src="3soundjacket.jpg" alt="Sound Jacket" style="width:100%">
+                            <div class="overlay ">
+                                <h2>Sound Jacket - Music from Body
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Wearable computing | Music</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Project6 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="6mirror.html">
+                        <div class="hovereffect">
+                            <img src="8mirror.jpg" alt="Mirror" style="width:100%">
+                            <div class="overlay ">
+                                <h2>MOom - Adaptable Mirror
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Interaction | Interior</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project7 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="7yinyun.html">
+                        <div class="hovereffect">
+                            <img src="6yinyun-6.jpg" alt="Yin Yun" style="width:100%">
+                            <div class="overlay ">
+                                <h2>Yin Yun - Plant Dyestuff
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Experiment | Sustainability</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project5 -->
+            <div class="columns">
+                <div class="contents">
+                    <a href="5material.html">
+                        <div class="hovereffect">
+                            <img src="5material-new-1.jpg" alt="Bio Leather" style="width:100%">
+                            <div class="overlay ">
+                                <h2>Bio Leather - from Food Waste
+                                    <br>
+                                    <span style="color:#777777; font-size:18px; font-weight:300;"> Experiment | Sustainability</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <!-- Project8 -->
+            <!-- <div class="columns">
             <div class="contents">
                 <a href="8space.html" >
                     <div class="hovereffect">
@@ -228,20 +230,20 @@
             </div>
         </div> -->
 
-       
 
 
 
 
-    </div>
 
-<!-- Page content END -->
+        </div>
 
-    <br>
-    <br>
+        <!-- Page content END -->
 
-<!-- scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <br>
+        <br>
+
+        <!-- scroll to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
         <svg width="30px" height="20px" viewBox="0 0 32 18" xml:space="preserve">
             <!-- stroke-dasharray="5,5" -->
         <polyline fill="none" stroke="#105a5f"  stroke-width="3"  points="
@@ -249,35 +251,38 @@
         </svg>
     </button>
 
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-            } else {
-                document.getElementById("myBtn").style.display = "none";
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
             }
-        }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
 
-<!-- footer -->
-    <footer>
-        <div class="containerCenter">
-            <p id="bottom">© 2021 NINGYUAN XU</p>
-        </div>
-    </footer>
-<!-- footer END -->
+        <!-- footer -->
+        <footer>
+            <div class="containerCenter">
+                <p id="bottom">© 2023 NINGYUAN XU</p>
+            </div>
+        </footer>
+        <!-- footer END -->
 
-<!-- MAIN END -->
-</div>
+        <!-- MAIN END -->
+    </div>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Qiro - Bluetooth Speaker</title>
@@ -10,166 +11,234 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header class="header-image2">
-    <nav class="navbar nav-main">
-        <div class="topnav-centered">
-            <a href="index.html" class="navbar-brand ">ningyuan xu</a>
-            <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
-        </div>
+    <!-- Navbar -->
+    <header class="header-image2">
+        <nav class="navbar nav-main">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand ">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
 
-        <ul>
-            <li><a href="index.html" class="nav-active">Work</a></li>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a href="playground.html">Play</a></li>
-        </ul>
-        <button class="navbar-toggler">
+            <ul>
+                <li><a href="index.html" class="nav-active">Work</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="playground.html">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
             <span></span>
         </button>
-    </nav>
+        </nav>
 
 
 
-    <!-- Navbar toggler script-->
-    <script>
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        const navbarMenu = document.querySelector(".navbar ul");
-        const navbarLinks = document.querySelectorAll(".navbar a");
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
 
-        navbarToggler.addEventListener("click", navbarTogglerClick);
+            navbarToggler.addEventListener("click", navbarTogglerClick);
 
-        function navbarTogglerClick() {
-            navbarToggler.classList.toggle("open-navbar-toggler");
-            navbarMenu.classList.toggle("open");
-        }
-
-        // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
-
-        function navbarLinkClick() {
-            if(navbarMenu.classList.contains("open")) {
-                navbarToggler.click();
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
             }
-        }
-    </script>
-</header>
-<!-- Navbar END -->
+
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </header>
+    <!-- Navbar END -->
 
 
-<!-- MAIN (Center website) -->
-<br>
-<div class="project-main">
+    <!-- MAIN (Center website) -->
+    <br>
+    <div class="project-main">
 
-<!-- Page content -->
-<br>
-<br>
-    <!-- row1 text -->
-    <div class="rows">
-        <div class="project-title">
-            <h1>
-                Qiro -<br>Puppet Speaker
-            </h1>
+        <!-- Page content -->
+        <br>
+        <br>
+        <!-- row1 text -->
+        <div class="rows">
+            <div class="project-title">
+                <h1>
+                    Qiro -<br>Puppet Speaker
+                </h1>
+            </div>
+            <br>
+            <div class="project-text">
+                <p class="grey-text">
+                    Interaction Design | Body Language of Machine<br> Teamwork: Simon von Schmude, Ningyuan Xu<br> Supervisor: Prof. Carola Zwick<br>
+                </p>
+                <p class="grey-text" style="width:120%">
+                    Working Prototype: Transducer, Amplifier, Poti, Bluetooth, NFC
+
+                </p>
+                <br>
+                <p>
+                    We chose a transformation that gradually increases in physical volume of a cube in order to visualize the changing volume of sound. There is a second cube hidden inside of the first one, that – when tilted out – can increase the volume to almost twice
+                    the original. This is made possible by a folding surface in between the cubes, that resembles the visual appearance of a mouth. A visual representation of sound volume as physical volume allows for a more intuitive way of controlling
+                    said sound volume. A puppet shaped speaker could be turned on and set to a volume by just opening its „mouth“. This metaphor can then be used for other interactive gestures, like the pause function.
+                    <br> Qiro demonstrates, that even an abstract geometry is able to be enriched by the additional dimension of body language with plausible gestures allowing for intriguing layers of tacit interaction.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-new-1.jpeg" alt="Qiro - Current Product" style="width:60%">
         </div>
         <br>
-        <div class="project-text">
-            <p class="grey-text">
-                Interaction Design | Body Language of Machine<br>
-                Teamwork: Simon von Schmude, Ningyuan Xu<br>
-                Supervisor: Prof. Carola Zwick<br>
-            </p>
-            <p class="grey-text" style="width:120%">
-                Working Prototype: Transducer, Amplifier, Poti, Bluetooth, NFC
-                
-            </p>
-            <br>
-            <p>
-                We chose a transformation that gradually increases in physical volume of a cube in order to visualize the changing volume of sound. There is a second cube hidden inside of the first one, that – when tilted out – can increase the volume to almost twice the original. This is made possible by a folding surface in between the cubes, that resembles the visual appearance of a mouth.
-                A visual representation of sound volume as physical volume allows for a more intuitive way of controlling said sound volume. A puppet shaped speaker could be turned on and set to a volume by just opening its „mouth“. This metaphor can then be used for other interactive gestures, like the pause function.
-                <br>
-                Qiro demonstrates, that even an abstract geometry is able to be enriched by the additional dimension of body language with plausible gestures allowing for intriguing layers of tacit interaction.
-            </p>
+
+        <div class="image-big">
+            <img src="3qiro-sketch.jpeg" alt="Qiro - sketch" style="width:60%">
         </div>
-    </div>
+        <br>
 
-    <br>
-    <br>
 
-    <!-- row2 video -->
-    <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
-        <iframe src="https://player.vimeo.com/video/226613435?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
+        <div class="image-big">
+            <video loop="" muted="" autoplay="" playsinline="" poster="" style="width:100%" src="3qiro-paper.mp4" controls="">
+            </video>
+        </div>
+        <br>
 
-    <br>
-    <br>
-    <div class="">
-        <h3></h3>
-    </div>
-    <!-- row3 image -->
-    <!--<div class="rows ">-->
+        <div class="image-big">
+            <img src="3qiro-2.png" alt="Qiro - User Journey" style="width:100%">
+        </div>
+        <br>
 
-    <div class="image-small image-left">
-        <img src="3qiro-3.jpg" alt="Qiro - NFC and Bluetooth"  style="width:100%">
-    </div>
-    <div class="image-small image-right">
-        <img src="3qiro-9.jpg" alt="Qiro - Adjust Volumn"  style="width:100%">
-    </div>
 
-    <div class="image-small image-left">
-        <img src="3qiro-4.jpg" alt="Qiro - Pause and Continue"  style="width:100%">
-    </div>
-    <div class="image-small image-right">
-        <img src="3qiro-5.jpg" alt="Qiro - Whisper Message"  style="width:100%">
-    </div>
 
-    <br>
-    <br>
 
-    <div class="image-big">
-    <img src="3qiro-2.png" alt="Qiro - User Journey"  style="width:100%">
-    </div>
-    <br>
-    <div class="image-big">
-        <img src="3qiro-8.jpg" alt="Qiro - First Working Prototype"  style="width:100%">
-    </div>
-    <br>
-    <div class="image-big">
-        <img src="3qiro-6.jpg" alt="Qiro - Inside Components"  style="width:100%">
-    </div>
-    <br>
-    <div class="image-big">
-        <img src="3qiro-7-2.jpg" alt="Qiro - Circuit Diagram"  style="width:100%">
-    </div>
 
-    <br>
+        <div class="">
+            <h3></h3>
+        </div>
 
-    <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
-        <iframe src="https://player.vimeo.com/video/221085587?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+
+        <!-- row3 image -->
+        <!--<div class="rows ">-->
+
+        <div style="overflow:auto">
+            <div class="image-small image-left">
+                <img src="3qiro-3.jpg" alt="Qiro - NFC and Bluetooth" style="width:100%">
+            </div>
+            <div class="image-small image-right">
+                <img src="3qiro-9.jpg" alt="Qiro - Adjust Volumn" style="width:100%">
+            </div>
+
+            <div class="image-small image-left">
+                <img src="3qiro-4.jpg" alt="Qiro - Pause and Continue" style="width:100%">
+            </div>
+            <div class="image-small image-right">
+                <img src="3qiro-5.jpg" alt="Qiro - Whisper Message" style="width:100%">
+            </div>
+
+        </div>
+
+
+        <br>
+
+
+        <!-- row2 video -->
+        <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/226613435?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-8.jpg" alt="Qiro - First Working Prototype" style="width:100%">
+        </div>
+        <br>
+        <div class="image-big">
+            <img src="3qiro-6.jpg" alt="Qiro - Inside Components" style="width:100%">
+        </div>
+        <br>
+
+        <div class="image-big">
+            <video loop="" muted="" autoplay="" playsinline="" poster="" style="width:100%" src="3qiro-prototype.mp4" controls="">
+            </video>
+        </div>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-7-2.jpg" alt="Qiro - Circuit Diagram" style="width:100%">
+        </div>
+
+        <br>
+
+        <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/221085587?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-membrane.jpeg" alt="Qiro - membrane" style="width:100%">
+        </div>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro- strap.jpeg" alt="Qiro - hand strap" style="width:100%">
+        </div>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-material.jpeg" alt="Qiro - material" style="width:100%">
+        </div>
+        <br>
+
+        <div class="image-big">
+            <img src="3qiro-modelling.jpeg" alt="Qiro - modelling" style="width:100%">
+        </div>
+        <br>
+
+        <!-- row2 video -->
+        <div class="image-big videos" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/226613435?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        <br>
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="text-links">
+            <a href="index.html">All</a>
+            <a href="1neos.html">NEOs - Tangible Apps Kit</a>
+            <a href="2speaker.html" class="active-links">Qiro - Puppet Speaker</a>
+            <a href="4shift.html">Shift - Virtual Hand Therapy</a>
+            <a href="9mini.html">MINI - Service Now App</a>
+            <a href="3jacket.html">Sound Jacket - Music from Body</a>
+            <a href="6mirror.html">MOom - Adaptable Mirror</a>
+            <a href="7yinyun.html">Yin Yun - Plant Dyestuff</a>
+            <a href="5material.html">Bio Leather - from Food Waste</a>
+            <a href="playground.html">Play</a>
+        </div>
+
+        <!-- MAIN END -->
     </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="text-links">
-        <a href="index.html" >All</a>
-        <a href="1neos.html" >NEOs - Tangible Apps Kit</a>
-        <a href="2speaker.html" class="active-links" >Qiro - Puppet Speaker</a>
-        <a href="4shift.html" >Shift - Virtual Hand Therapy</a>
-        <a href="9mini.html" >MINI - Service Now App</a>
-        <a href="3jacket.html" >Sound Jacket - Music from Body</a>
-        <a href="6mirror.html" >MOom - Adaptable Mirror</a>
-        <a href="7yinyun.html" >Yin Yun - Plant Dyestuff</a>
-        <a href="5material.html" >Bio Leather - from Food Waste</a>
-        <a href="playground.html" >Play</a>
-    </div>
-
-<!-- MAIN END -->
-</div>
 
 
 
@@ -190,7 +259,9 @@
 
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -211,7 +282,7 @@
     <footer>
         <br>
         <div class="containerCenter">
-            <p id="bottom">© 2019 NINGYUAN XU</p>
+            <p id="bottom">© 2023 NINGYUAN XU</p>
         </div>
     </footer>
     <!-- footer END -->
@@ -220,4 +291,5 @@
 
 
 </body>
+
 </html>

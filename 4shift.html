@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Shift - Virtual Hand Therapy</title>
@@ -10,184 +11,185 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header class="header-image4">
-    <nav class="navbar nav-main">
-        <div class="topnav-centered">
-            <a href="index.html" class="navbar-brand" style="color: lightgray; font-weight:500">ningyuan xu</a>
-            <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
-        </div>
+    <!-- Navbar -->
+    <header class="header-image4">
+        <nav class="navbar nav-main">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand" style="color: lightgray; font-weight:500">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
 
-        <ul>
-            <li><a href="index.html" class="navbar-white" style="color:white; font-weight: 300">Work</a></li>
-            <li><a href="aboutme.html" class="navbar-white">About</a></li>
-            <li><a href="playground.html" class="navbar-white">Play</a></li>
-        </ul>
-        <button class="navbar-toggler">
+            <ul>
+                <li><a href="index.html" class="navbar-white" style="color:white; font-weight: 300">Work</a></li>
+                <li><a href="aboutme.html" class="navbar-white">About</a></li>
+                <li><a href="playground.html" class="navbar-white">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
             <span></span>
         </button>
-    </nav>
+        </nav>
 
 
 
-    <!-- Navbar toggler script-->
-    <script>
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        const navbarMenu = document.querySelector(".navbar ul");
-        const navbarLinks = document.querySelectorAll(".navbar a");
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
 
-        navbarToggler.addEventListener("click", navbarTogglerClick);
+            navbarToggler.addEventListener("click", navbarTogglerClick);
 
-        function navbarTogglerClick() {
-            navbarToggler.classList.toggle("open-navbar-toggler");
-            navbarMenu.classList.toggle("open");
-        }
-
-        // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
-
-        function navbarLinkClick() {
-            if(navbarMenu.classList.contains("open")) {
-                navbarToggler.click();
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
             }
-        }
-    </script>
-</header>
-<!-- Navbar END -->
+
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </header>
+    <!-- Navbar END -->
 
 
-<!-- MAIN (Center website) -->
-<br>
-<br>
-<div class="project-main">
-<!-- Page content -->
-<br>
-    <!-- row1 text -->
-    <div class="rows">
-        <div class="project-title">
-            <h1>
-                Shift -<br>Virtual Hand Therapy
-            </h1>
+    <!-- MAIN (Center website) -->
+    <br>
+    <br>
+    <div class="project-main">
+        <!-- Page content -->
+        <br>
+        <!-- row1 text -->
+        <div class="rows">
+            <div class="project-title">
+                <h1>
+                    Shift -<br>Virtual Hand Therapy
+                </h1>
+            </div>
+            <br>
+            <div class="project-text">
+                <p class="grey-text">
+                    Interaction Design | Mixed Reality<br> Teamwork: Alexis Iakovenko, Julia Schmidt, Ningyuan Xu<br> Supervisor: Prof. Carola Zwick<br> Special thanks to: Daniela Neye (Hand Therapist)<br> Working Prototype: Unity, Leap Motion
+                </p>
+                <br>
+                <p>
+                    ‚SHIFT – virtual hand therapy‘ is a tool that supports patients during the acute phase of hand therapy by delivering precise instructions and feedbacks in order to create motivation. The human hand is multifunctional tool, that is important for all kinds
+                    of everyday tasks. Regaining lost hand function is target of hand therapy. Because the treatment is temporary, at home exercises are decisive for a successful recovery. For that discipline and motivation are essential. Still, the majority
+                    of the patients feel lost because they can’t remember the exercises and instructions of their therapist and there is no feedback. ‚SHIFT– virtual hand therapy‘ allows you to record and safe your individual movement in line with your
+                    therapist. It works in connection with a sensor device, that tracks finger and hand movements. These movements are saved as movement patterns.
+
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- row2 video -->
+        <div class="image-big" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/278296159?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+
+        <br>
+        <div class="image-big">
+            <img src="4shift-1.jpg" alt="Shift - Record1" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <div class="">
+            <h2><span class="orange-subtitle"></span>1 - Record movements with the therapist</h2>
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="4shift-2.jpg" alt="Shift - Record2" style="width:100%">
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="4shift-34.jpg" alt="Shift - Record3" style="width:100%">
+        </div>
+
+        <!--<br>-->
+        <!--<div class="image-big">-->
+        <!--<img src="4shift-10.jpg" alt="Shift - Record"  style="width:100%">-->
+        <!--</div>-->
+
+        <br>
+        <div class="">
+            <h3><span class="orange-subtitle"></span> Record Prototype in Unity </h3>
+        </div>
+
+        <br>
+        <div class="image-big">
+            <video style="width:100%" src="4shift-6.mp4" controls="">
+        </video>
+        </div>
+
+        <br>
+        <br>
+        <div class="">
+            <h2><span class="orange-subtitle"></span> 2 - Exercise at home</h2>
+        </div>
+
+        <br>
+        <div class="image-big">
+            <img src="4shift-5.jpg" alt="Shift - Exercise" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <h3><span class="orange-subtitle"></span>Background Patterns</h3>
+            <p class="project-text" style="width:70%;text-align:center; margin: auto">Pre-programmed background patterns will be randamly applied to exercises. An internal counter is embedded in the pattern to prevent overstraining your hand. The pattern is changing in accordance with the movement to help you optimizeing the
+                exercises.</p>
         </div>
         <br>
-        <div class="project-text">
-            <p class="grey-text">
-                Interaction Design | Mixed Reality<br>
-                Teamwork: Alexis Iakovenko, Julia Schmidt, Ningyuan Xu<br>
-                Supervisor: Prof. Carola Zwick<br>
-                Special thanks to: Daniela Neye (Hand Therapist)<br>
-                Working Prototype: Unity, Leap Motion
-            </p>
-            <br>
-            <p>
-                ‚SHIFT – virtual hand therapy‘ is a tool that supports patients during the acute phase of hand therapy by delivering precise instructions and feedbacks in order to create motivation. The human hand is multifunctional tool, that is important for all kinds of everyday tasks. Regaining lost hand function is target of hand therapy. Because the treatment is temporary, at home exercises are decisive for a successful recovery. For that discipline and motivation are essential. Still, the majority of the patients feel lost because they can’t remember the exercises and instructions of their therapist and there is no feedback. ‚SHIFT– virtual hand therapy‘ allows you to record and safe your individual movement in line with your therapist. It works in connection with a sensor device, that tracks finger and hand movements. These movements are saved as movement patterns.
-
-            </p>
+        <br>
+        <div class="image-big">
+            <img src="4shift-6789-2.jpg" alt="Shift - Background Patterns" style="width:100%">
         </div>
-    </div>
 
-    <br>
-    <br>
 
-    <!-- row2 video -->
-    <div class="image-big" style="padding:56.25% 0 0 0;position:relative;">
-        <iframe src="https://player.vimeo.com/video/278296159?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
-    <br>
+        <br>
+        <div class="">
+            <h3><span class="orange-subtitle"></span> Comparision Prototype in Unity </h3>
+        </div>
 
-    <br>
-    <div class="image-big">
-        <img src="4shift-1.jpg" alt="Shift - Record1"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <div class="">
-        <h2><span class="orange-subtitle"></span>1 - Record movements with the therapist</h2>
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="4shift-2.jpg" alt="Shift - Record2"  style="width:100%">
-    </div>
-
-    <br>
-    <div class="image-big">
-        <img src="4shift-34.jpg" alt="Shift - Record3"  style="width:100%">
-    </div>
-
-    <!--<br>-->
-    <!--<div class="image-big">-->
-        <!--<img src="4shift-10.jpg" alt="Shift - Record"  style="width:100%">-->
-    <!--</div>-->
-
-    <br>
-    <div class="">
-        <h3><span class="orange-subtitle"></span> Record Prototype in Unity </h3>
-    </div>
-
-    <br>
-    <div class="image-big">
-        <video style="width:100%" src="4shift-6.mp4" controls="">
+        <br>
+        <div class="image-big">
+            <video style="width:100%" src="4shift-10.mp4" class="" controls="">
         </video>
-    </div>
+        </div>
 
-    <br>
-    <br>
-    <div class="">
-        <h2><span class="orange-subtitle"></span> 2 - Exercise at home</h2>
-    </div>
+        <br>
+        <br>
+        <br>
 
-    <br>
-    <div class="image-big">
-        <img src="4shift-5.jpg" alt="Shift - Exercise"  style="width:100%">
-    </div>
-
-    <br>
-    <br>
-    <div >
-        <h3><span class="orange-subtitle"></span>Background Patterns</h3>
-        <p class="project-text" style="width:70%;text-align:center; margin: auto">Pre-programmed background patterns will be randamly applied to exercises. An internal counter is embedded in the pattern to prevent overstraining your hand. The pattern is changing in accordance with the movement to help you optimizeing the exercises.</p>
-    </div>
-    <br>
-    <br>
-    <div class="image-big">
-        <img src="4shift-6789-2.jpg" alt="Shift - Background Patterns"  style="width:100%">
-    </div>
-
-
-    <br>
-    <div class="">
-        <h3><span class="orange-subtitle"></span> Comparision Prototype in Unity </h3>
-    </div>
-
-    <br>
-    <div class="image-big">
-        <video style="width:100%" src="4shift-10.mp4" class="" controls="">
-        </video>
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-    <div class="text-links">
-            <a href="index.html" >All</a>
-            <a href="1neos.html" >NEOs - Tangible Apps Kit</a>
-            <a href="2speaker.html" >Qiro - Puppet Speaker</a>
+        <div class="text-links">
+            <a href="index.html">All</a>
+            <a href="1neos.html">NEOs - Tangible Apps Kit</a>
+            <a href="2speaker.html">Qiro - Puppet Speaker</a>
             <a href="4shift.html" class="active-links">Shift - Virtual Hand Therapy</a>
-            <a href="9mini.html" >MINI - Service Now App</a>
-            <a href="3jacket.html" >Sound Jacket - Music from Body</a>
-            <a href="6mirror.html" >MOom - Adaptable Mirror</a>
-            <a href="7yinyun.html" >Yin Yun - Plant Dyestuff</a>
-            <a href="5material.html" >Bio Leather - from Food Waste</a>
-            <a href="playground.html" >Play</a>
-    </div>
+            <a href="9mini.html">MINI - Service Now App</a>
+            <a href="3jacket.html">Sound Jacket - Music from Body</a>
+            <a href="6mirror.html">MOom - Adaptable Mirror</a>
+            <a href="7yinyun.html">Yin Yun - Plant Dyestuff</a>
+            <a href="5material.html">Bio Leather - from Food Waste</a>
+            <a href="playground.html">Play</a>
+        </div>
 
-<!-- MAIN END -->
-</div>
+        <!-- MAIN END -->
+    </div>
 
     <!-- Page content END -->
 
@@ -203,7 +205,9 @@
 
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -224,7 +228,7 @@
     <footer>
         <br>
         <div class="containerCenter">
-            <p id="bottom">© 2019 NINGYUAN XU</p>
+            <p id="bottom">© 2023 NINGYUAN XU</p>
         </div>
     </footer>
     <!-- footer END -->
@@ -233,4 +237,5 @@
 
 
 </body>
+
 </html>
