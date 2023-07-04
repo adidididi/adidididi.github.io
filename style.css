@@ -159,8 +159,8 @@ header {}
 
 .navbar a {
     text-decoration: none;
-    color: grey;
-    letter-spacing: 1px;
+    color: black;
+    letter-spacing: 0.5px;
 }
 
 .navbar a.nav-active {
@@ -176,12 +176,12 @@ header {}
 
 .navbar a.navbar-brand {
     /* color:#105a5f; */
-    color: #1f7b82;
+    color: black;
     /* color:#272727; */
     height: inherit;
     line-height: inherit;
     padding: 0 24px;
-    font-size: 26px;
+    font-size: 36px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
@@ -203,18 +203,18 @@ header {}
 }
 
 .navbar ul li a {
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
     /*letter-spacing: 0px;*/
     transition: 0.3s;
     display: block;
     text-align: center;
-    min-width: 80px;
-    padding: 0 5px;
+    min-width: 40px;
+    padding: 0 20px;
 }
 
 .navbar ul li a:hover {
-    color: #f27052;
+    color: #d7593c;
 }
 
 .navbar .navbar-toggler {
@@ -680,7 +680,7 @@ header {}
     font-size: 16px;
     margin-top: 45px;
     margin-bottom: 24px;
-    color: lightgrey;
+    color: rgb(150, 150, 150);
     /*width: 100%;*/
 }
 
@@ -754,6 +754,14 @@ header {
 
 .header-image9 {
     background-image: url('9mini-head2.jpg');
+}
+
+.header-image10 {
+    background-image: url('10salestraining0.jpg');
+}
+
+.header-image12 {
+    background-image: url('12peelsphere0.png');
 }
 
 

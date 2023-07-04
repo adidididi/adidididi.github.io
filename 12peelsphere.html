@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PEELSPHERE - Bio material innovation</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header-image12">
+        <nav class="navbar nav-main">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand" style="color: black; font-weight:500">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
+
+            <ul>
+                <li><a href="index.html" class="navbar" style="">Home</a></li>
+                <li><a href="aboutme.html" class="navbar">About</a></li>
+                <li><a href="playground.html" class="navbar">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
+            <span></span>
+        </button>
+        </nav>
+
+
+
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
+
+            navbarToggler.addEventListener("click", navbarTogglerClick);
+
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
+            }
+
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </header>
+    <!-- Navbar END -->
+
+
+    <!-- MAIN (Center website) -->
+    <br>
+    <br>
+    <div class="project-main">
+        <!-- Page content -->
+        <br>
+        <!-- row1 text -->
+        <div class="rows">
+            <div class="project-title">
+                <h1>
+                    PEELSPHERE -<br> Bio material innovation
+                </h1>
+            </div>
+            <br>
+            <div class="project-text">
+                <p class="grey-text">
+                    Branding | Web Design<br> <br> Thanks to PEELSPHERE team <br> Tools: Adobe creative suite, HTML/CSS/JS
+                </p>
+                <br>
+                <p>
+                    PEELSPHERE® is a truly circular material made from fruit waste and algae through advanced material engineering. It is created by redefining fruit waste, reducing carbon footprint and designing for circularity, as an ideal alternative to leather and synthetic
+                    leather.
+                    <br><br>Visit the website of the world leading sustainable material:
+                    <a href="www.peelsphere.com">PEELSPHERE.COM</a>
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- row2 video 
+        <div class="image-big" style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/278296159?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <br>
+        -->
+
+        <br>
+
+        <div class="image-big">
+            <img src="12peelsphere.jpg" alt="PEELSPHERE" style="width:100%">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div>
+            <h2><span class="orange-subtitle"></span>Brand identity design</h3>
+
+        </div>
+        <br>
+        <div class="image-big">
+            <img src="12peelsphere1.png" alt="PEELSPHERE" style="width:100%">
+        </div>
+        <br>
+        <div class="image-big">
+            <img src="12peelsphere2.jpg" alt="PEELSPHERE" style="width:100%">
+        </div>
+
+
+
+
+
+        <!--<br>-->
+        <!--<div class="image-big">-->
+        <!--<img src="4shift-10.jpg" alt="Shift - Record"  style="width:100%">-->
+        <!--</div>-->
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <div class="text-links">
+            <a href="index.html">All</a>
+            <a href="10wwtraining.html">Wonderwerk - Training platform</a>
+            <a href="4shift.html">Shift - Virtual Hand Therapy</a>
+            <a href="9mini.html">MINI - Service Now App</a>
+            <a href="12peelsphere.html" class="active-links">PEELSPHERE - Bio material innovation </a>
+            <a href="1neos.html">NEOs - Tangible Apps Kit</a>
+            <a href="2speaker.html">Qiro - Puppet Speaker</a>
+
+            <a href="5material.html">Bio Leather - from Food Waste</a>
+            <a href="playground.html">Play</a>
+        </div>
+
+        <!-- MAIN END -->
+    </div>
+
+    <!-- Page content END -->
+
+
+    <!-- scroll to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg width="30px" height="20px" viewBox="0 0 32 18" xml:space="preserve">
+            <!-- stroke-dasharray="5,5" -->
+        <polyline fill="none" stroke="#105a5f"  stroke-width="3"  points="
+        1,18 16,1 31,18 "/>
+        </svg>
+    </button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- footer -->
+    <footer>
+        <br>
+        <div class="containerCenter">
+            <p id="bottom">© 2023 NINGYUAN XU</p>
+        </div>
+    </footer>
+    <!-- footer END -->
+
+
+
+
+</body>
+
+</html>
