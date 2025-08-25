@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bose - The listening experience</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header-image13">
+        <nav class="navbar nav-main">
+            <div class="topnav-centered">
+                <a href="index.html" class="navbar-brand" style="color: white; font-weight:500">ningyuan xu</a>
+                <!--<a href="#" class="navbar-brand"><img src="" style="width: 50px; vertical-align: middle;">ningyuan xu</a>-->
+            </div>
+
+            <ul>
+                <li><a href="index.html" class="navbar">Home</a></li>
+                <li><a href="aboutme.html" class="navbar">About</a></li>
+                <li><a href="playground.html" class="navbar">Play</a></li>
+            </ul>
+            <button class="navbar-toggler">
+            <span></span>
+        </button>
+        </nav>
+
+
+
+        <!-- Navbar toggler script-->
+        <script>
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const navbarMenu = document.querySelector(".navbar ul");
+            const navbarLinks = document.querySelectorAll(".navbar a");
+
+            navbarToggler.addEventListener("click", navbarTogglerClick);
+
+            function navbarTogglerClick() {
+                navbarToggler.classList.toggle("open-navbar-toggler");
+                navbarMenu.classList.toggle("open");
+            }
+
+            // navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+            function navbarLinkClick() {
+                if (navbarMenu.classList.contains("open")) {
+                    navbarToggler.click();
+                }
+            }
+        </script>
+    </header>
+    <!-- Navbar END -->
+
+
+    <!-- MAIN (Center website) -->
+    <br>
+    <br>
+    <div class="project-main">
+        <!-- Page content -->
+        <br>
+        <!-- row1 text -->
+        <div class="rows">
+            <div class="project-title">
+                <h1>
+                    Bose -<br>The listening experience
+                </h1>
+            </div>
+            <br>
+            <div class="project-text">
+                <p class="grey-text">
+                    Interaction | UX Design <br><br>Bose Advanced XD Team <br>
+                </p>
+                <br>
+                <p>
+                    I worked at Bose Experience Design Team as an interaction designer. The experience team’s functions therefore go beyond standard product development. It is focusing on the top for customer experience, interface design, wearable device concept, and mixed reality concept, for the general listening experience of the future.
+
+During my time there, I focused on designing the user experience for open ear devices, for example the Bose soundwear family products. and the user experience for noise-cancelling devices, including bose sleepbuds series. 
+
+                    <br><br>The content here does not involve any specific research result or product solutions, most of the content only refers to general areas and my personal views.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+
+
+        <br>
+
+        <div class="image-big">
+            <img src="15bose1.png" alt="Bose" style="width:100%">
+        </div>
+
+        <br>
+
+
+        <div>
+            <h2><span class="orange-subtitle"></span> </h3>
+
+        </div>
+        <br>
+        <div class="image-big">
+            <img src="15bose2.png" alt="Bose" style="width:100%">
+        </div>
+        <br>
+
+        <br><br>
+
+        <div>
+            <h2><span class="orange-subtitle"></span>Demo video</h3>
+
+        </div>
+        <br>
+      
+
+
+        <div class="image-big">
+            <img src="15bose3.png" alt="Bose" style="width:100%">
+        </div>
+
+        <div class="image-big">
+            <img src="15bose4.png" alt="Bose" style="width:100%">
+        </div>
+
+        <div class="image-big">
+            <img src="15bose5.png" alt="Bose" style="width:100%">
+        </div>
+
+        <div class="image-big">
+            <img src="15bose6.png" alt="Bose" style="width:100%">
+        </div>
+
+        <div class="image-big">
+            <img src="15bose7.png" alt="Bose" style="width:100%">
+        </div>
+
+
+
+
+        <br>
+        <br>
+        <br>
+
+
+
+        <div class="text-links">
+            <a href="index.html">All</a>
+            <a href="10wwtraining.html">Wonderwerk - Training platform</a>
+            <a href="13wookong.html" class="active-links">Bose - The listening experience</a>
+            <a href="9mini.html">MINI - Service Now App</a>
+            <a href="12peelsphere.html">PEELSPHERE - Bio material innovation</a>
+            <a href="13wookong.html">Wookong - The multichain wallet</a>
+            <a href="11aicoaching.html">COACH - AI Coaching tool</a>
+            <a href="4shift.html">Shift - Virtual Hand Therapy</a>
+            <a href="1neos.html">NEOs - Tangible Apps Kit</a>
+            <a href="2speaker.html">Qiro - Puppet Speaker</a>
+
+            <a href="5material.html">Bio Leather - from Food Waste</a>
+            <a href="playground.html">Play</a>
+        </div>
+
+        <!-- MAIN END -->
+    </div>
+
+    <!-- Page content END -->
+
+
+    <!-- scroll to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg width="30px" height="20px" viewBox="0 0 32 18" xml:space="preserve">
+            <!-- stroke-dasharray="5,5" -->
+        <polyline fill="none" stroke="#105a5f"  stroke-width="3"  points="
+        1,18 16,1 31,18 "/>
+        </svg>
+    </button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- footer -->
+    <footer>
+        <br>
+        <div class="containerCenter">
+            <p id="bottom">© 2023 NINGYUAN XU</p>
+        </div>
+    </footer>
+    <!-- footer END -->
+
+
+
+
+</body>
+
+</html>
